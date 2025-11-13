@@ -123,6 +123,7 @@ def run(argv: Iterable[str] | None = None) -> int:
             continue
 
         report = clean_csv(csv_path, dict(rule_config), output_dir, limit=args.limit)
+
         _print_report(report, args.stats)
 
     return exit_code

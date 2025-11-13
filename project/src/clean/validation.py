@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import re
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Callable, Literal, Sequence, cast
@@ -8,6 +10,8 @@ from typing import Any, Callable, Literal, Sequence, cast
 import numpy as np
 import pandas as pd
 from standardisation import STANDARDISERS
+
+from globalrules import JSON_PATH
 
 @dataclass
 class CleanReport:
@@ -381,7 +385,14 @@ def clean_csv(
     if default_validation_rules:
         selected_columns = list(dataframe.columns)
     else:
-        selected_columns = [col for col in dataframe.columns if col in specific_validation_rules]
+        selected_columns = [
+            col for col in dataframe.columns 
+            if col in specific_validation_rules
+        ]
+
+        pattern = re.compile(r'^[FH]\s*-\s*', re.IGNORECASE)
+        dynamic_cols = [col for col in dataframe.columns if pattern.match(col)]
+        selected_columns = list(dict.fromkeys(selected_columns + dynamic_cols))
 
     effective_validation_rules: dict[str, list[str]] = {}
     for column in selected_columns:
@@ -449,9 +460,30 @@ def clean_csv(
         (cleaned_row_count / filtered_row_count) * 100 if filtered_row_count > 0 else 0.0
     )
 
+    # add custom column 'sports'
+    with open(JSON_PATH, "r", encoding="utf-8") as f:
+        fed_to_sport = json.load(f)
+    cleaned_dataframe['sport'] = cleaned_dataframe['federation'].map(fed_to_sport)
+    cleaned_dataframe['sport'] = cleaned_dataframe['sport'].fillna('Inconnu')
+
+    # add custom columns 'h_count' and 'f_count'
+    h_cols = [col for col in cleaned_dataframe.columns if col.strip().startswith('H -')]
+    f_cols = [col for col in cleaned_dataframe.columns if col.strip().startswith('F -')]
+
+    cleaned_dataframe[h_cols] = cleaned_dataframe[h_cols].apply(pd.to_numeric, errors='coerce')
+    cleaned_dataframe[f_cols] = cleaned_dataframe[f_cols].apply(pd.to_numeric, errors='coerce')
+
+    cleaned_dataframe['h_count'] = cleaned_dataframe[h_cols].sum(axis=1, skipna=True)
+    cleaned_dataframe['f_count'] = cleaned_dataframe[f_cols].sum(axis=1, skipna=True)
+
+
+    # create file
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / f"clean_{csv_name}"
-    cleaned_dataframe.to_csv(output_path, index=False)
+
+    if os.path.exists(output_path):
+        os.remove(output_path)
+    cleaned_dataframe.to_csv(output_path, index=False, encoding="utf-8-sig")
 
     message_lines: list[str] = []
     if limit is not None and limit >= 0 and pre_limit_count > limit:

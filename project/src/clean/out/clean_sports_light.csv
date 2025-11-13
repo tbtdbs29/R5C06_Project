@@ -1,0 +1,130 @@
+﻿commune,region,federation,total,F - 1 à 4 ans,F - 5 à 9 ans,F - 10 à 14 ans,F - 15 à 19 ans,F - 20 à 24 ans,F - 25 à 29 ans,F - 30 à 34 ans,F - 35 à 39 ans,F - 40 à 44 ans,F - 45 à 49 ans,F - 50 à 54 ans,F - 55 à 59 ans,F - 60 à 64 ans,F - 65 à 69 ans,F - 70 à 74 ans,F - 75 à 79 ans,F - 80 à 99 ans,F - NR,H - 1 à 4 ans,H - 5 à 9 ans,H - 10 à 14 ans,H - 15 à 19 ans,H - 20 à 24 ans,H - 25 à 29 ans,H - 30 à 34 ans,H - 35 à 39 ans,H - 40 à 44 ans,H - 45 à 49 ans,H - 50 à 54 ans,H - 55 à 59 ans,H - 60 à 64 ans,H - 65 à 69 ans,H - 70 à 74 ans,H - 75 à 79 ans,H - 80 à 99 ans,H - NR,sport,h_count,f_count
+l'abergement-clémenciat,auvergne-rhône-alpes,ff d'athlétisme,6,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Athlétisme,3,3
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de badminton,15,0,0,2,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,1,2,1,1,1,0,1,0,0,0,0,0,0,0,Badminton,9,6
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de basketball,7,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Basket-ball,5,2
+l'abergement-clémenciat,auvergne-rhône-alpes,ff d'équitation,13,0,1,3,2,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Équitation,3,10
+l'abergement-clémenciat,auvergne-rhône-alpes,ff d'escrime,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Escrime,1,1
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de football,26,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,7,0,3,0,1,1,0,0,0,1,0,0,0,0,0,0,Football,25,1
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de handball,5,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Handball,3,2
+l'abergement-clémenciat,auvergne-rhône-alpes,"ff de judo, jujitsu, kendo et da",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Judo, jujitsu, kendo et disciplines associées",0,1
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de natation,4,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Natation et disciplines aquatiques,1,3
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de tennis,12,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,1,0,0,0,0,0,1,2,0,0,1,0,0,1,0,Tennis,10,2
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de tennis de table,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Tennis de table,6,1
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de tir,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,Tir sportif,2,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de tir à l'arc,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Tir à l'arc,3,1
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de triathlon et disciplines enchainées,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Triathlon et disciplines enchaînées,2,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de golf,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,Golf,3,1
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de rugby,11,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,2,1,2,1,0,0,0,0,0,1,0,0,0,0,0,Rugby,9,2
+l'abergement-clémenciat,auvergne-rhône-alpes,ff aéronautique,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Aéronautique,1,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff du sport automobile,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Sport automobile,1,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff du sport boules,14,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,2,2,1,2,0,Sport-boules,10,4
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de course d'orientation,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Course d’orientation,2,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de cyclotourisme,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Cyclotourisme,1,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff d'études et sports sous-marins,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Plongée et sports subaquatiques,2,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de motocyclisme,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Motocyclisme,1,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de pétanque et jeu provençal,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,Pétanque et jeu provençal,2,1
+l'abergement-clémenciat,auvergne-rhône-alpes,ff de la randonnée pédestre,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Randonnée pédestre,1,5
+l'abergement-clémenciat,auvergne-rhône-alpes,f des sports et loisirs canins,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Sports et loisirs canins,1,0
+l'abergement-clémenciat,auvergne-rhône-alpes,ff d'éducation physique et de gymnastique volontaire,8,0,0,0,0,0,0,1,0,0,0,0,2,1,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Éducation physique et gymnastique volontaire,0,8
+l'abergement-clémenciat,auvergne-rhône-alpes,f sportive et gymnique du travail,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Sport et gymnastique du travail,2,1
+l'abergement-clémenciat,auvergne-rhône-alpes,union française des œuvres laïques d'éducation physique (ufolep),1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Multisports et éducation physique laïque,0,1
+l'abergement-clémenciat,auvergne-rhône-alpes,f sportive des asptt,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Sports multisports des ASPTT,1,0
+l'abergement-clémenciat,auvergne-rhône-alpes,f sportive educative de l'enseignement catholique (ugsel),14,0,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport scolaire de l’enseignement catholique (UGSEL),7,7
+l'abergement-de-varey,auvergne-rhône-alpes,ff de badminton,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,Badminton,2,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de basketball,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,Basket-ball,8,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff de canoë-kayak et sports de pagaie,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Canoë-kayak et sports de pagaie,1,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff de cyclisme,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cyclisme,2,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff d'équitation,2,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Équitation,0,2
+l'abergement-de-varey,auvergne-rhône-alpes,ff d'escrime,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Escrime,1,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de football,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Football,1,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de gymnastique,3,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gymnastique,0,3
+l'abergement-de-varey,auvergne-rhône-alpes,ff de handball,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Handball,1,0
+l'abergement-de-varey,auvergne-rhône-alpes,"ff de judo, jujitsu, kendo et da",3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Judo, jujitsu, kendo et disciplines associées",2,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff de ski,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ski et sports de neige,2,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de tennis,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Tennis,0,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff de tennis de table,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Tennis de table,0,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff de tir,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,Tir sportif,2,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff de volley,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Volley-ball,1,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de golf,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Golf,2,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de rugby,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rugby,2,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff du sport boules,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Sport-boules,1,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de karaté et da,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Karaté et disciplines associées,0,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff de pétanque et jeu provençal,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,Pétanque et jeu provençal,3,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de la randonnée pédestre,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Randonnée pédestre,1,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff de vol libre,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,"Vol libre (parapente, deltaplane...)",2,0
+l'abergement-de-varey,auvergne-rhône-alpes,ff des clubs alpins et de montagne,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,Alpinisme et activités de montagne,4,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff du sport travailliste,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Sport travailliste,1,0
+l'abergement-de-varey,auvergne-rhône-alpes,f sportive et gymnique du travail,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Sport et gymnastique du travail,1,1
+l'abergement-de-varey,auvergne-rhône-alpes,union française des œuvres laïques d'éducation physique (ufolep),2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Multisports et éducation physique laïque,1,1
+l'abergement-de-varey,auvergne-rhône-alpes,ff du sport adapté,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport adapté (personnes en situation de handicap mental),1,0
+l'abergement-de-varey,auvergne-rhône-alpes,f sportive educative de l'enseignement catholique (ugsel),4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport scolaire de l’enseignement catholique (UGSEL),2,2
+ambérieu-en-bugey,auvergne-rhône-alpes,ff d'athlétisme,93,0,6,4,2,1,2,3,4,2,5,3,6,0,0,0,0,0,0,2,6,9,7,0,1,2,2,4,3,9,3,2,3,2,0,0,0,Athlétisme,55,38
+ambérieu-en-bugey,auvergne-rhône-alpes,ff d'aviron,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,Aviron,4,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de badminton,60,1,2,5,1,0,0,0,5,2,1,0,0,0,1,0,0,0,0,0,7,4,3,0,6,6,1,5,3,2,4,0,1,0,0,0,0,Badminton,42,18
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de basketball,178,0,16,15,3,1,4,6,3,1,4,0,0,0,0,0,0,0,0,2,41,31,14,4,6,3,7,6,4,2,2,2,0,0,1,0,0,Basket-ball,125,53
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de boxe,13,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,3,1,1,1,1,1,0,1,1,0,0,0,0,0,0,Boxe,11,2
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de canoë-kayak et sports de pagaie,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,Canoë-kayak et sports de pagaie,4,1
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de cyclisme,33,0,0,1,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,7,6,3,3,0,0,1,2,1,1,1,2,0,0,1,0,Cyclisme,29,4
+ambérieu-en-bugey,auvergne-rhône-alpes,ff d'équitation,123,0,23,30,12,10,5,5,7,2,2,3,4,2,0,1,0,0,0,0,4,2,1,2,2,1,1,2,0,0,0,1,0,0,1,0,0,Équitation,17,106
+ambérieu-en-bugey,auvergne-rhône-alpes,ff d'escrime,10,0,3,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Escrime,4,6
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de football,364,0,2,3,4,4,5,3,3,0,0,2,0,0,1,0,0,0,0,0,90,90,41,30,24,18,15,8,6,6,4,1,4,0,0,0,0,Football,337,27
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de gymnastique,136,20,48,26,14,3,1,0,0,0,2,1,0,0,1,0,0,0,0,16,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Gymnastique,20,116
+ambérieu-en-bugey,auvergne-rhône-alpes,"ff d'haltérophilie, musculation",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Haltérophilie et musculation,1,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de handball,114,0,6,7,6,2,3,0,1,1,1,0,2,0,0,0,0,0,0,6,12,24,14,4,6,3,3,6,2,2,0,1,1,1,0,0,0,Handball,85,29
+ambérieu-en-bugey,auvergne-rhône-alpes,"ff de judo, jujitsu, kendo et da",30,0,6,3,2,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,4,6,1,0,2,0,0,0,1,1,1,0,0,0,0,0,0,"Judo, jujitsu, kendo et disciplines associées",16,14
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de lutte,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Lutte,1,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de natation,76,1,14,10,5,1,0,1,0,1,2,0,1,0,0,0,0,0,0,0,18,11,3,0,1,1,0,1,2,0,3,0,0,0,0,0,0,Natation et disciplines aquatiques,40,36
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de ski,10,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,2,0,0,3,0,0,Ski et sports de neige,8,2
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de tennis,139,1,8,9,7,3,3,2,2,3,3,2,1,1,0,1,0,0,0,2,10,20,9,2,6,4,9,13,6,6,3,1,2,0,0,0,0,Tennis,93,46
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de tennis de table,40,1,0,1,0,0,1,0,0,1,1,0,2,0,0,1,0,0,0,1,5,8,2,1,2,0,2,1,4,2,1,1,0,1,1,0,0,Tennis de table,32,8
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de tir,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,8,3,2,4,1,2,3,1,4,3,0,0,Tir sportif,35,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de tir à l'arc,21,0,0,1,1,0,0,0,2,1,0,0,0,0,0,1,0,0,0,0,0,4,0,0,2,0,0,0,1,2,1,4,1,0,0,0,0,Tir à l'arc,15,6
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de triathlon et disciplines enchainées,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,4,0,0,0,0,0,0,0,0,0,Triathlon et disciplines enchaînées,7,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de voile,18,1,2,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,2,1,1,2,0,0,0,0,0,Voile,9,9
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de volley,41,1,1,4,4,1,0,0,0,0,2,0,0,0,0,1,0,0,0,1,2,3,8,1,5,1,2,0,1,3,0,0,0,0,0,0,0,Volley-ball,27,14
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de golf,39,0,0,0,0,0,0,0,0,1,0,1,0,1,3,1,0,1,0,0,0,2,2,1,1,1,1,3,1,1,2,7,4,3,0,2,0,Golf,31,8
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de rugby,90,0,3,0,0,2,0,0,0,4,1,0,0,0,0,0,0,0,0,2,10,10,11,10,5,7,4,3,3,4,1,5,4,1,0,0,0,Rugby,80,10
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de la montagne et de l'escalade,54,0,6,8,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,2,6,6,1,1,5,7,4,2,1,0,0,1,0,0,0,0,0,Montagne et escalade,36,18
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de roller et skateboard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Roller et skateboard,1,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de danse,6,0,0,1,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Danse sportive,1,5
+ambérieu-en-bugey,auvergne-rhône-alpes,ff d'aéromodélisme,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,1,4,2,0,1,0,0,0,Aéromodélisme,12,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff aéronautique,7,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,1,0,1,0,1,0,0,0,0,0,0,Aéronautique,6,1
+ambérieu-en-bugey,auvergne-rhône-alpes,"ff d'aïkido, d'aïkibudo et affinitaires",4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Aïkido, aïkibudo et disciplines affinitaires",3,1
+ambérieu-en-bugey,auvergne-rhône-alpes,ff du sport automobile,22,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,1,0,2,1,3,1,4,1,0,0,0,0,Sport automobile,19,3
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de ball-trap,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,Ball-trap (tir aux plateaux),2,1
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de billard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Billard,1,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff du sport boules,47,0,0,0,0,0,0,0,0,1,0,1,2,1,0,2,0,0,0,0,0,0,0,0,0,4,0,1,1,4,2,10,7,7,2,2,0,Sport-boules,40,7
+ambérieu-en-bugey,auvergne-rhône-alpes,"ff de savate, boxe française et da",28,0,1,7,2,0,0,0,0,3,0,1,0,0,0,0,0,0,0,0,2,3,2,0,0,0,3,0,1,2,1,0,0,0,0,0,0,Savate - boxe française et disciplines associées,14,14
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de bowling et de sport de quilles,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,1,1,3,0,0,0,0,Bowling et sport de quilles,10,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de course d'orientation,22,0,3,1,0,0,0,2,1,2,1,0,0,0,0,0,0,0,0,1,0,2,3,0,1,0,3,1,1,0,0,0,0,0,0,0,0,Course d’orientation,12,10
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de cyclotourisme,17,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,3,2,2,0,0,0,Cyclotourisme,14,3
+ambérieu-en-bugey,auvergne-rhône-alpes,ff des échecs,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Jeu d’échecs,2,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff d'études et sports sous-marins,27,0,0,2,0,1,2,0,2,1,0,1,0,1,0,0,0,0,0,0,0,2,0,0,2,2,1,1,0,3,3,1,0,2,0,0,0,Plongée et sports subaquatiques,17,10
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de karaté et da,12,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,2,1,2,1,0,0,0,0,0,Karaté et disciplines associées,9,3
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de motocyclisme,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,3,2,0,2,1,2,1,1,1,3,0,0,0,0,0,Motocyclisme,20,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de parachutisme,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Parachutisme,3,1
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de pétanque et jeu provençal,46,0,0,0,0,0,1,1,0,0,0,4,1,0,0,0,0,0,0,0,1,0,1,0,2,5,4,0,2,3,3,2,6,6,2,2,0,Pétanque et jeu provençal,39,7
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de planeur ultraléger motorisé,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Planeur ultraléger motorisé (ULM),1,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de la randonnée pédestre,42,0,0,0,0,0,0,0,1,3,2,2,3,2,11,5,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,2,3,3,1,1,0,Randonnée pédestre,13,29
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de sauvetage et de secourisme,14,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,1,2,2,1,1,0,0,0,0,Sauvetage et secourisme,12,2
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de spéléologie,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,0,0,1,0,0,0,0,Spéléologie,5,1
+ambérieu-en-bugey,auvergne-rhône-alpes,"ff des sports de traîneau, de ski vtt joëring et de canicross",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Sports de traîneau, ski, VTT joëring et canicross",1,0
+ambérieu-en-bugey,auvergne-rhône-alpes,ff sportive de twirling bâton,2,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Twirling bâton,0,2
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de vol en planeur,20,0,0,0,3,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,2,1,2,1,1,2,0,2,2,0,0,0,0,0,0,Vol en planeur,13,7
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de vol libre,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Vol libre (parapente, deltaplane...)",1,1
+ambérieu-en-bugey,auvergne-rhône-alpes,"ff de kick boxing, muay thaï et da",61,2,10,11,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,8,7,10,4,1,1,2,0,0,0,0,0,0,0,0,0,0,0,"Kick boxing, muay thaï et disciplines associées",33,28
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de flying disc,6,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,"Flying disc (ultimate, disc golf...)",3,3
+ambérieu-en-bugey,auvergne-rhône-alpes,ff des pêches sportives,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3,0,0,0,0,0,Pêches sportives,4,0
+ambérieu-en-bugey,auvergne-rhône-alpes,f de voitures radio commandées,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Voitures radio-commandées,2,0
+ambérieu-en-bugey,auvergne-rhône-alpes,f des sports et loisirs canins,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sports et loisirs canins,0,1
+ambérieu-en-bugey,auvergne-rhône-alpes,ff des clubs alpins et de montagne,12,0,0,0,1,1,0,3,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,Alpinisme et activités de montagne,5,7
+ambérieu-en-bugey,auvergne-rhône-alpes,ff d'éducation physique et de gymnastique volontaire,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Éducation physique et gymnastique volontaire,0,1
+ambérieu-en-bugey,auvergne-rhône-alpes,ff sports pour tous,16,0,0,0,0,0,0,0,0,0,0,2,0,2,4,1,1,1,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,1,0,Sport pour tous,5,11
+ambérieu-en-bugey,auvergne-rhône-alpes,ff de la retraite sportive,186,0,0,0,0,0,0,0,0,0,0,0,3,20,53,32,22,9,0,0,0,0,0,0,0,0,0,0,0,0,2,6,15,14,6,4,0,Sport pour les seniors (retraite sportive),47,139
+ambérieu-en-bugey,auvergne-rhône-alpes,f nationale du sport en milieu rural,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport en milieu rural,0,1
+ambérieu-en-bugey,auvergne-rhône-alpes,f sportive et gymnique du travail,16,0,0,0,0,0,0,2,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,3,0,0,1,1,0,2,0,3,0,0,0,0,Sport et gymnastique du travail,11,5
+ambérieu-en-bugey,auvergne-rhône-alpes,union française des œuvres laïques d'éducation physique (ufolep),111,23,25,5,2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,14,27,8,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,Multisports et éducation physique laïque,54,57
+ambérieu-en-bugey,auvergne-rhône-alpes,ff du sport d'entreprise,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Sport en entreprise,1,0
+ambérieu-en-bugey,auvergne-rhône-alpes,f sportive des asptt,14,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,2,2,1,4,0,Sports multisports des ASPTT,12,2
+ambérieu-en-bugey,auvergne-rhône-alpes,ff handisport,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Handisport,1,1
+ambérieu-en-bugey,auvergne-rhône-alpes,ff du sport adapté,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,Sport adapté (personnes en situation de handicap mental),3,1
