@@ -51,8 +51,10 @@ def _flatten_columns(dataframe: pd.DataFrame) -> None:
 def _load_dataframe(
     csv_path: Path, header_rows: Sequence[int] | int | Literal["infer"] | None
 ) -> pd.DataFrame:
-    dataframe = pd.read_csv(csv_path, header=header_rows, low_memory=False)
+
+    dataframe = pd.read_csv(csv_path, sep=";", quotechar='"', header=header_rows, low_memory=False, on_bad_lines="skip")
     _flatten_columns(dataframe)
+
     return dataframe
 
 

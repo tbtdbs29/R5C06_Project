@@ -9,7 +9,7 @@ DEFAULT_CONVERTION_RULES = PROJECT_ROOT / "project" / "src" / "clean"
 DEFAULT_DATA_DIR = PROJECT_ROOT / "data"
 DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parent / "out"
 
-JSON_PATH = PROJECT_ROOT / "project" / "src" / "clean" / "convertion_rules.json"
+JSON_PATH = PROJECT_ROOT / "data" / "standardized_sports.json"
 
 type validation_rule_name = Literal[
     "notNull",
@@ -61,7 +61,7 @@ type RulesByCsv = dict[str, CsvConfig]
 # H - 1 à 4 ans,H - 5 à 9 ans,H - 10 à 14 ans,H - 15 à 19 ans,H - 20 à 24 ans,H - 25 à 29 ans,H - 30 à 34 ans,H - 35 à 39 ans,H - 40 à 44 ans,H - 45 à 49 ans,H - 50 à 54 ans,H - 55 à 59 ans,H - 60 à 64 ans,H - 65 à 69 ans,H - 70 à 74 ans,H - 75 à 79 ans,H - 80 à 99 ans, H - NR,
 
 RULES_BY_CSV: RulesByCsv = {
-    "sports_light.csv": {
+    "sports.csv": {
         "header_rows": [0],
         "skip_rows": [],
         "rename_columns": {

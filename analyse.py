@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 #Open csv file
-with open('data/lic-data-2022.csv', 'r') as file:
+with open('data/sports.csv', 'r') as file:
     sports_data = file.read()
 
 #TODO: graphs des sports le plus pratiqué en france
