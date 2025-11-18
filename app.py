@@ -6,12 +6,11 @@ import plotly.graph_objects as go
 # Configuration de la page
 st.set_page_config(
     page_title="Analyse des Sports en France",
-    page_icon="🏅",
+    page_icon="📈",
     layout="wide"
 )
 
 # --- FONCTIONS DE CHARGEMENT ET DE TRAITEMENT ---
-
 @st.cache_data
 def load_data(filepath):
     """
@@ -23,6 +22,7 @@ def load_data(filepath):
     except FileNotFoundError:
         st.error(f"Le fichier '{filepath}' est introuvable. Assurez-vous qu'il est dans le même dossier.")
         return pd.DataFrame()
+
 
 def get_age_columns(df):
     """Identifie les colonnes d'âge pour hommes et femmes."""
@@ -48,17 +48,17 @@ def prepare_demographics_data(df_filtered):
     
     return sums
 
-# --- INTERFACE UTILISATEUR ---
+# --- Streamlit interface ---
 
 def main():
-    st.title("🏅 Dashboard Interactif des Sports")
+    st.title("Dashboard Interactif des Sports")
     st.markdown("""
     Cette application permet d'analyser la répartition des licences sportives en France
     selon les régions, les sports et la démographie (âge/genre).
     """)
 
     # Chargement des données
-    FILE_PATH = 'data/lite_clean.csv' #project/src/clean/out/clean_sports.csv
+    FILE_PATH = 'project/src/clean/out/clean_sports.csv' # data/lite_clean.csv
     df = load_data(FILE_PATH)
 
     if df.empty:
@@ -67,11 +67,11 @@ def main():
     # --- SIDEBAR (Filtres Globaux) ---
     st.sidebar.header("Filtres Globaux")
     
-    # Choix de la colonne de nom de sport (Standardisé ou Fédération brute)
-    use_standard_names = st.sidebar.checkbox("Utiliser noms standardisés (ex: 'Tennis')", value=True)
+    # Choix de la colonne de nom de sport 
+    use_standard_names = st.sidebar.checkbox("Utiliser noms standardisés", value=True)
     sport_col = 'sport' if use_standard_names and 'sport' in df.columns else 'federation'
 
-    # Filtre Régions (Multiselect pour varier les graphs globaux)
+    # Filtre Régions 
     all_regions = sorted(df['region'].unique())
     selected_regions = st.sidebar.multiselect(
         "Filtrer par Région(s)",
@@ -86,7 +86,7 @@ def main():
     st.sidebar.info(f"Données chargées : {len(df)} communes / clubs")
 
     # --- ONGLETS (TABS) ---
-    tab1, tab2, tab3 = st.tabs(["🏆 Top Sports (National)", "🗺️ Analyse Régionale", "👥 Âge & Genre"])
+    tab1, tab2, tab3 = st.tabs(["Top Sports (National)", "Analyse Régionale", "Âge & Genre"])
 
     # === TAB 1: TOP SPORTS ===
     with tab1:
