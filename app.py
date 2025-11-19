@@ -10,11 +10,17 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- FONCTIONS DE CHARGEMENT ET DE TRAITEMENT ---
+
 @st.cache_data
 def load_data(filepath):
     """
-    Charge le fichier CSV et effectue un pré-traitement léger si nécessaire.
+    Charge le fichier CSV
+
+    Args:
+        filepath (str): Le chemin d'accès au fichier CSV à charger.
+
+    Returns:
+        pd.DataFrame: Le DataFrame contenant les données chargées, ou un DataFrame vide si le fichier est introuvable.
     """
     try:
         df = pd.read_csv(filepath)
@@ -25,15 +31,29 @@ def load_data(filepath):
 
 
 def get_age_columns(df):
-    """Identifie les colonnes d'âge pour hommes et femmes."""
-    # On cherche les colonnes qui contiennent 'ans' et qui commencent par F ou H
-    cols = [c for c in df.columns if 'ans' in c and ('F -' in c or 'H -' in c)]
+    """
+    identifie les colonnes d'âge dans le DataFrame.
+
+    Args:
+        dataframe (pd.DataFrame): Le DataFrame à analyser.
+
+    Returns:
+        list: Une liste des noms de colonnes correspondant aux tranches d'âge.
+    """
+    # les colonnes qui contiennent 'ans' et qui commencent par F ou H
+    cols = [c for c in df.columns if 'ans' in c and ('F -' in c or 'H -' in c)] 
     return cols
+
 
 def prepare_demographics_data(df_filtered):
     """
-    Agrège les données par âge et genre pour le dataframe filtré (ex: un sport spécifique).
-    Optimisé pour ne pas 'melt' tout le dataset énorme.
+    Prépare les données démographiques (âge et genre) pour un sport donné
+
+    Args:
+        df_filtered (pd.DataFrame): Le DataFrame filtré pour un sport spécifique.
+
+    Returns:
+        pd.DataFrame: Un DataFrame avec les colonnes 'Genre', 'Age' et 'count'.
     """
     age_cols = get_age_columns(df_filtered)
     
@@ -41,30 +61,36 @@ def prepare_demographics_data(df_filtered):
     sums = df_filtered[age_cols].sum().reset_index()
     sums.columns = ['column_name', 'count']
     
-    # Extraire Genre et Tranche d'âge
-    # Format attendu: "F - 1 à 4 ans"
+    # Extraire Genre et Tranche d'âge : format attendu: "F - 1 à 4 ans"
     sums['Genre'] = sums['column_name'].apply(lambda x: 'Femme' if x.startswith('F') else 'Homme')
     sums['Age'] = sums['column_name'].apply(lambda x: x.split(' - ')[1])
     
     return sums
 
-# --- Streamlit interface ---
 
 def main():
+    """
+    Fonction principale pour exécuter l'application Streamlit
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     st.title("Dashboard Interactif des Sports")
     st.markdown("""
-    Cette application permet d'analyser la répartition des licences sportives en France
-    selon les régions, les sports et la démographie (âge/genre).
+    Cette application permet d'analyser la répartition des licences sportives en France selon les régions, les sports et la démographie (âge/genre).
     """)
 
     # Chargement des données
-    FILE_PATH = 'project/src/clean/out/clean_sports.csv' # data/lite_clean.csv
+    FILE_PATH = 'project/src/clean/out/clean_sports.csv' # data/lite_clean.csv(petit fichier)
     df = load_data(FILE_PATH)
 
     if df.empty:
         return
 
-    # --- SIDEBAR (Filtres Globaux) ---
+    # SIDEBAR
     st.sidebar.header("Filtres Globaux")
     
     # Choix de la colonne de nom de sport 
@@ -85,10 +111,10 @@ def main():
     st.sidebar.markdown("---")
     st.sidebar.info(f"Données chargées : {len(df)} communes / clubs")
 
-    # --- ONGLETS (TABS) ---
-    tab1, tab2, tab3 = st.tabs(["Top Sports (National)", "Analyse Régionale", "Âge & Genre"])
+    # ONGLETS 
+    tab1, tab2, tab3 = st.tabs(["Top Sports", "Analyse Régionale", "Âge & Genre"])
 
-    # === TAB 1: TOP SPORTS ===
+    # TAB 1 : TOP SPORTS
     with tab1:
         st.header("Sports les plus pratiqués en France")
         
@@ -118,7 +144,7 @@ def main():
             fig_top.update_layout(yaxis={'categoryorder':'total ascending'}) # Trie du plus grand au plus petit
             st.plotly_chart(fig_top, use_container_width=True)
 
-    # === TAB 2: ANALYSE RÉGIONALE ===
+    # TAB 2 : ANALYSE RÉGIONALE
     with tab2:
         st.header("Focus par Région")
         
@@ -156,12 +182,11 @@ def main():
             )
             st.plotly_chart(fig_pie, use_container_width=True)
 
-    # === TAB 3: DÉMOGRAPHIE (ÂGE ET GENRE) ===
+    # TAB 3: DÉMOGRAPHIE (ÂGE ET GENRE)
     with tab3:
         st.header("Pyramide des âges par Sport")
         
-        # Input : Choix du sport
-        # On prend la liste des sports disponibles
+        # Input : Choix du sport sur la liste des sports disponibles
         available_sports = sorted(df_filtered[sport_col].unique())
         selected_sport = st.selectbox("Sélectionnez un sport pour voir la démographie", available_sports, index=0)
         
@@ -169,11 +194,10 @@ def main():
         df_sport_demo = df_filtered[df_filtered[sport_col] == selected_sport]
         
         if not df_sport_demo.empty:
-            # Préparer les données (Melt intelligent)
+            # Préparer les données
             data_demo = prepare_demographics_data(df_sport_demo)
             
-            # Ordre des âges (Important pour que le graph soit dans le bon ordre)
-            # On définit l'ordre manuellement pour éviter le tri alphabétique (10 avant 5)
+            # On définit l'ordre manuellement pour éviter le tri alphabétique
             age_order = [
                 '1 à 4 ans', '5 à 9 ans', '10 à 14 ans', '15 à 19 ans', '20 à 24 ans', 
                 '25 à 29 ans', '30 à 34 ans', '35 à 39 ans', '40 à 44 ans', '45 à 49 ans', 
@@ -187,7 +211,7 @@ def main():
                 x='Age',
                 y='count',
                 color='Genre',
-                barmode='group', # 'group' pour côte à côte, 'relative' pour empilé
+                barmode='group', 
                 title=f"Répartition par Âge et Genre : {selected_sport}",
                 category_orders={"Age": age_order}, # Force l'ordre des âges
                 color_discrete_map={"Homme": "blue", "Femme": "pink"}

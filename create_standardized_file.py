@@ -5,12 +5,14 @@ import json
 with open('data/sports.csv', 'r') as file:
     sports_data = file.read()
 
-
 def get_unique_sports(data):
     """
-    Extrait les noms de sports uniques de la 9ème colonne du CSV.
-    Cette version utilise strip() de manière robuste pour 
-    supprimer les guillemets ou apostrophes autour du nom.
+    Extrait la liste des sports uniques à partir des données CSV brutes.
+    Args:
+        data (str): Le contenu brut du fichier CSV.
+
+    Returns:
+        list: Une liste des sports uniques.
     """
     lst_sports = []
     for line in data.splitlines()[1:]:
@@ -20,8 +22,7 @@ def get_unique_sports(data):
         try:
             sport = line.split(';')[8]
         except IndexError:
-            continue 
-
+            continue # Ignorer les lignes malformés
     
         sport = sport.strip().strip('\'"')
         sport = sport.replace("\\'", "'")
@@ -34,6 +35,15 @@ def get_unique_sports(data):
 
 # 1ère standardization de données
 def standardize_federation(lst_sports):
+    """
+    Standardise les noms des sports en supprimant les préfixes de fédération.
+
+    Args:
+        lst_sports (list): La liste des noms de sports à standardiser.
+
+    Returns:
+        list: La liste des noms de sports standardisés.
+    """
     standardized_sports = []
     
     for sport in lst_sports:
@@ -54,6 +64,15 @@ def standardize_federation(lst_sports):
 
 
 def lst_to_lower(lst):
+    """
+    Convertit tous les éléments d'une liste de chaînes en minuscules.
+
+    Args:
+        lst (list): La liste des chaînes à convertir en minuscules.
+
+    Returns:
+        list: La liste des chaînes converties en minuscules.
+    """
     return [item.lower() for item in lst]
 
 lst_sport = get_unique_sports(sports_data)
